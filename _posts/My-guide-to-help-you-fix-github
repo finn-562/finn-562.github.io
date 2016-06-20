@@ -1,0 +1,22 @@
+---
+title: My guide to help you fix github
+layout: post
+author: finn.morrisroe
+permalink: /untitled-document/
+source-id: 19KMvjpIK20iyakak1lssG5YSL9C68HojYC365tbXwtM
+published: true
+---
+In my IT lesson today we learnt how to fix errors on Github. I am now going to tell you how to do it.
+
+* Firstly you have to go onto your repository on Github.
+
+* Then go onto your settings and scroll down until you find something that either says, "Your site is having problems," or “your site is published.”
+
+* If it says "your site is published," it is fine, but if it says “your site is having problems,” you need to read on to see what is the problem.
+
+* It should say something like "you have a problem on line 12" or “you have a problem on file style.scss.”
+
+* You then have to go to that line orn file and sort out what is not right such as forgetting the semicolon or too many spaces.
+
+That is my guide to you just in case your github site is having problems to publish.  
+
