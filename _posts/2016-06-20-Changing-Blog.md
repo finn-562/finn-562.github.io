@@ -16,5 +16,7 @@ Rules that my teacher set out:
 
 * Blog post every week.
 
-I will try follow these rules. Also because we restarted the blog post you will see that I have a different avatar and different background colours.
+I will try follow these rules. Also because we restarted the blog post you will see that I have a different avatar and different background colours. 
+
+Next week I'm not sure what my teacher will set so I can’t make a target.
 
