@@ -221,17 +221,19 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  color: #6666ff;
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
     font-size: 16px;
+    color: #6666ff
   }
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: color: #6666ff;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
