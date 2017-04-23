@@ -15,6 +15,7 @@
 
 html {
   font-size: 100%;
+  colour: $blue;
 }
 
 body { 
@@ -118,7 +119,6 @@ img {
   max-width: 100%;
 }
 
-// Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
 }
@@ -128,7 +128,6 @@ img {
   color: #8600b3;
 }
 
-// Specify the color of the selection
 ::-moz-selection {
   color: #8600b3;
   background: $lightGray;
@@ -138,8 +137,6 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -212,9 +209,8 @@ img {
   color: $blue;
   font-size: 16px;
 }
-@include mobile }
+@include mobile {
     margin: 3px 0;
-  
 {
     margin-left: 20px;
     color: #6666ff;
