@@ -1,6 +1,7 @@
 ---
 ---
 
+	
 //
 // IMPORTS
 //
@@ -15,18 +16,36 @@
 
 html {
   font-size: 100%;
-  colour: $blue;
 }
 
-body { 
-    background-image: url('https://images2.alphacoders.com/481/48170.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #cc00cc;
+body {
+        background-image: url("http://wallpapercave.com/wp/sPXLBtC.jpg");
+	background-repeat: no-repeat;
+    	background-position: right top;
+    	background-attachment: fixed;
+  font: 18px/1.4 $helvetica  ;
+  color: #D9B310;
+}
+
+div {
+    box-sizing: border-box;
+    width: 100%;
+    float: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%
 }
 
 table, th, td {
-   border: 1px solid black;
+    border: 1px solid black;
+	
+}
+
+body {
+  margin: 0 auto;
+  width: 960px;
 }
 
 .container {
@@ -34,12 +53,15 @@ table, th, td {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
-  color: #990099
+  background:rgba(63, 191, 191, 0.1);
+	border-radius: 25px;
+    padding: 20px; 
+	border-bottom: 1px solid white;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #8600b3;
+  color: #D9B310;
   font-weight: bold;
 
   line-height: 1.7;
@@ -54,23 +76,21 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 30px;
   a {
-    color: #6666ff;
+    color: inherit;
   }
 }
 
 h2 {
   font-size: 24px;
-  color: #6666ff;
 }
 
 h3 {
   font-size: 20px;
-  color: #6666ff
 }
 
 h4 {
   font-size: 18px;
-  color: #8600b3;
+  color: #D9B310;
 }
 
 p {
@@ -78,7 +98,7 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #D9B310;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -96,181 +116,3 @@ ul {
 }
 
 ol {
-  list-style-type: decimal;
-}
-
-ol ul, ul ol, ul ul, ol ol {
-  margin: 0;
-}
-
-ul ul, ol ul {
-  list-style-type: circle;
-}
-
-em, i {
-  font-style: italic;
-}
-
-strong, b {
-  font-weight: bold;
-}
-
-img {
-  max-width: 100%;
-}
-
-.gmnoprint img {
-  max-width: none;
-}
-
-.date {
-  font-style: italic;
-  color: #8600b3;
-}
-
-::-moz-selection {
-  color: #8600b3;
-  background: $lightGray;
-}
-::selection {
-  color: #8600b3;
-  background: $lightGray;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-/*********************/
-/* LAYOUT / SECTIONS */
-/*********************/
-
-//
-// .masthead
-//
-
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
-
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-  @include mobile {
-    text-align: center;
-  }
-}
-
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-
-  img {
-    border-radius: 5px;
-  }
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: #8600b3;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
-}
-
-.site-description {
-  margin: -5px 0 0 0;
-  color: $blue;
-  font-size: 16px;
-}
-@include mobile {
-    margin: 3px 0;
-{
-    margin-left: 20px;
-    color: #6666ff;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
-
-//
-// .main
-//
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-
-.post {
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: #8600b3;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-}
-
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
-footer {
-  padding: 20px 0;
-  text-align: center;
-}
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
-@import "svg-icons";
