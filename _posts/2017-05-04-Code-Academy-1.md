@@ -59,5 +59,5 @@ published: true
 </table>
 
 
-Sorry this didn't post before 'Code Academy 2’
+this didn't post before 'Code Academy 2’
 
