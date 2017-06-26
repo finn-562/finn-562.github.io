@@ -24,7 +24,7 @@ body {
     	background-position: right top;
     	background-attachment: fixed;
   font: 18px/1.4 $helvetica  ;
-  color: #ffff00;
+  color: #ffffff;
 }
 
 div {
@@ -61,7 +61,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #ffff00;
+  color: #ffffff;
   font-weight: bold;
 
   line-height: 1.7;
@@ -90,7 +90,7 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: #ffff00;
+  color: #ffffff;
 }
 
 p {
@@ -98,7 +98,7 @@ p {
 }
 
 a {
-  color: #ffff00;
+  color: #ffffff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -146,7 +146,7 @@ img {
 
 .date {
  font-style: italic;
- color: #ffff00;
+ color: #ffffff;
 }
 
 // Specify the color of the selection
@@ -155,7 +155,7 @@ img {
  background: #D9B310;
 }
 ::selection {
- color: #ffff00;
+ color: ##ffffff;
  background: #D9B310;
 }
 
@@ -221,7 +221,7 @@ img {
 
 .site-name {
  margin: 0;
- color: #ffff00;
+ color: #ffffff;
  cursor: pointer;
  font-family: $helveticaNeue;
  font-weight: 300;
@@ -231,7 +231,7 @@ img {
 
 .site-description {
  margin: -5px 0 0 0;
- color:#ffff00;
+ color:#ffffff;
  font-size: 16px;
 
  @include mobile {
@@ -261,7 +261,7 @@ nav {
 
  @include mobile {
  margin: 0 10px;
- color: #ffff00;
+ color: #ffffff;
  }
  }
 }
