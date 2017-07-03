@@ -150,11 +150,11 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
- color:#328CC1;
+ color:#ffffff;
  background: #ffffff;
 }
 ::selection {
- color: $black;
+ color: #ffffff;
  background: #ffffff;
 }
 
@@ -253,7 +253,7 @@ nav {
 
  a {
  margin-left: 20px;
- color: #328CC1;
+ color: #ffffff;
  text-align: right;
  font-weight: 300;
  letter-spacing: 1px;
@@ -271,7 +271,7 @@ nav {
 
 .posts > .post {
  padding-bottom: 2em;
- border-bottom: 1px solid #D9B310;
+ border-bottom: 1px solid #ffffff;
 }
 
 .posts > .post:last-child {
@@ -303,7 +303,7 @@ nav {
  margin-top: 50px;
  border-top: 1px solid #ddd;
  border-bottom: 1px solid #ddd;
- background-color:#D9B310;
+ background-color:#ffffff;
 }
 
 footer {
