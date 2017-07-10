@@ -1,5 +1,5 @@
 ---
-title: Untitled document
+title: Code Academy 6
 layout: post
 author: finn.morrisroe
 permalink: /untitled-document/
